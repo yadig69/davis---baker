@@ -1,0 +1,54 @@
+.services-wrapper {
+    width: 100vw;
+    height: 50vh;
+    background-color: var(--white-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    h1 {
+        font-size: 10rem;
+        color: var(--h1-color);
+        font-weight: 800;
+        text-align: center;
+        margin: 5rem 1rem;
+    }
+    .services-card {
+        width: 20rem;
+        height: 20rem;
+        padding: 1rem;
+        //color: var(--button-bg-hover);
+        box-shadow: 20px 20px 75px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        background-color: hsla(169, 20%, 37%, 0.15);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+        box-sizing: border-box;
+        //border: 1px solid var(--border-test1);
+        .content {
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h3 {
+                padding: 0.5rem;
+                font-size: 1.8rem;
+                color: var(--white-color);
+                margin-bottom: 1.5rem;
+                letter-spacing: 0.25rem;
+            }
+            p {
+                font-size: 1.2rem;
+                color: var(--black-color);
+                font-weight: 300;
+                line-height: 1.2;
+                text-align: left;
+            }
+        }
+    }
+}

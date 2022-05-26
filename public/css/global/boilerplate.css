@@ -1,0 +1,50 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-varela);
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: var(--font-family-sans-serif);
+  background-color: var(--white-color);
+  color: var(--white-color);
+  line-height: 1;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white-color);
+  border: none;
+  cursor: pointer;
+}
+
+p {
+  font-family: var(--font-roboto-serif);
+  font-size: 1.25rem;
+  line-height: 1.2;
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+span {
+  font-family: var(--font-ubicada);
+  font-weight: 700;
+  font-size: 2rem;
+  font-kerning: none;
+}

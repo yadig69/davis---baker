@@ -1,0 +1,9 @@
+@import url("http://fonts.cdnfonts.com/css/ubicada");
+:root {
+  --font-family-sans-serif: "Open Sans", sans-serif;
+  --font-roboto-serif: "Roboto Slab", serif;
+  --font-roboto-monospace: "Roboto Mono", monospace;
+  --font-varela: "Varela Round", sans-serif;
+  --font-aqua: "Aqua Grotesque", serif;
+  --font-ubicada: "Ubicada", sans-serif;
+}

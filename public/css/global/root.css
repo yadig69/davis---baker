@@ -1,0 +1,17 @@
+:root {
+  --bg-color: hsl(169, 20%, 37%);
+  --white-color: hsl(0, 0%, 100%);
+  --gray-color: hsl(0, 0%, 75%);
+  --black-color: hsl(0, 0%, 0%);
+  --bg-2: hsl(169, 14%, 47%);
+  --button-bg: hsl(46, 50%, 88%);
+  --button-bg-hover: hsl(158, 93%, 59%);
+  --dark-text: hsl(228, 34%, 14%);
+  --border-test1: hsl(180, 100%, 50%);
+  --border-test2: hsl(323, 100%, 50%);
+  --h1-color: hsla(168, 14%, 47%, 0.345);
+  --box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  --border-color: 1px solid rgba(255, 255, 255, 0.5);
+  --box-bgcolor: hsla(169, 20%, 37%, 0.163);
+  --border-curved: 10px;
+}

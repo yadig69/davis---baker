@@ -1,0 +1,35 @@
+.right-panel {
+  width: 50vw;
+  height: 70vh;
+  background: var(--gray-color);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.right-panel img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+.right-panel .img-1 {
+  width: 50%;
+  height: 50%;
+}
+.right-panel .img-2 {
+  width: 50%;
+  height: 50%;
+}
+.right-panel .img-3 {
+  width: 50%;
+  height: 50%;
+}
+.right-panel .img-4 {
+  width: 50%;
+  height: 50%;
+}
+.right-panel.right-panel:hover .img-2 {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+}

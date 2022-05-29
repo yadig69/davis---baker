@@ -1,24 +1,34 @@
-.contact-wrapper {
+footer {
+  position: relative;
+  padding: 35px 45px 35px 45px !important;
   width: 100vw;
   height: auto;
   background-color: var(--bg-color);
 }
-.contact-wrapper .form-container {
+footer .form-container {
   width: 100%;
   padding: 1rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.contact-wrapper .form-container h2 {
+footer .form-container h2 {
   font-size: 2rem;
   font-weight: 800;
   margin: 2rem 0;
   color: var(--black-color);
 }
-.contact-wrapper .form-container input {
-  width: 100%;
+footer .form-container input {
+  width: 20rem;
   height: 3rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: row;
+}
+footer .form-container textarea {
+  width: 20rem;
+  height: 10rem;
   padding: 0.5rem;
   margin: 0.5rem;
   display: flex;

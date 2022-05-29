@@ -37,3 +37,18 @@
   left: 0;
   filter: grayscale(0%);
 }
+.right-panel .container .overlay .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  color: var(--white-color);
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}

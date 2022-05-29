@@ -9,6 +9,10 @@
   align-items: start;
   padding: 0 1.2rem;
 }
+.left-wrapper .left-panel {
+  width: 100%;
+  height: 100%;
+}
 .left-wrapper .left-panel h1 {
   font-size: 4rem;
   font-weight: 800;
@@ -23,6 +27,9 @@
 .left-wrapper .left-panel h2 span {
   color: var(--white-color);
 }
+.left-wrapper .left-panel .btn {
+  margin-bottom: 1rem;
+}
 .left-wrapper .left-panel .p-wrapper {
   width: 50%;
 }
@@ -31,21 +38,4 @@
   line-height: 1.2;
   text-align: left;
   color: var(--black-color);
-}
-.left-wrapper .left-panel .btn {
-  background-color: var(--button-bg);
-  padding: 0.5rem;
-  border-radius: 0.25rem;
-  border: none;
-  color: var(--black-color);
-  font-size: 1.5rem;
-  font-weight: 800;
-  line-height: 1.2;
-  text-align: center;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-  -webkit-border-radius: 0.25rem;
-  -moz-border-radius: 0.25rem;
-  -ms-border-radius: 0.25rem;
-  -o-border-radius: 0.25rem;
 }

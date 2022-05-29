@@ -50,6 +50,28 @@ span {
   font-kerning: none;
 }
 
+button {
+  width: 20rem;
+  height: 3rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--button-bg);
+  color: var(--gray-color);
+  font-size: 1.2rem;
+  font-weight: 800;
+  border: none;
+  border-radius: var(--border-curved);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+button:hover {
+  background-color: var(--button-bg-hover);
+}
+
 :root {
   --bg-color: hsl(169, 20%, 37%);
   --white-color: hsl(0, 0%, 100%);
@@ -133,6 +155,10 @@ a:hover {
   align-items: start;
   padding: 0 1.2rem;
 }
+.left-wrapper .left-panel {
+  width: 100%;
+  height: 100%;
+}
 .left-wrapper .left-panel h1 {
   font-size: 4rem;
   font-weight: 800;
@@ -147,6 +173,9 @@ a:hover {
 .left-wrapper .left-panel h2 span {
   color: var(--white-color);
 }
+.left-wrapper .left-panel .btn {
+  margin-bottom: 1rem;
+}
 .left-wrapper .left-panel .p-wrapper {
   width: 50%;
 }
@@ -155,23 +184,6 @@ a:hover {
   line-height: 1.2;
   text-align: left;
   color: var(--black-color);
-}
-.left-wrapper .left-panel .btn {
-  background-color: var(--button-bg);
-  padding: 0.5rem;
-  border-radius: 0.25rem;
-  border: none;
-  color: var(--black-color);
-  font-size: 1.5rem;
-  font-weight: 800;
-  line-height: 1.2;
-  text-align: center;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-  -webkit-border-radius: 0.25rem;
-  -moz-border-radius: 0.25rem;
-  -ms-border-radius: 0.25rem;
-  -o-border-radius: 0.25rem;
 }
 
 .right-panel {
@@ -213,28 +225,53 @@ a:hover {
   left: 0;
   filter: grayscale(0%);
 }
+.right-panel .container .overlay .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  color: var(--white-color);
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
 
-.contact-wrapper {
+footer {
+  position: relative;
+  padding: 35px 45px 35px 45px !important;
   width: 100vw;
   height: auto;
   background-color: var(--bg-color);
 }
-.contact-wrapper .form-container {
+footer .form-container {
   width: 100%;
   padding: 1rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.contact-wrapper .form-container h2 {
+footer .form-container h2 {
   font-size: 2rem;
   font-weight: 800;
   margin: 2rem 0;
   color: var(--black-color);
 }
-.contact-wrapper .form-container input {
-  width: 100%;
+footer .form-container input {
+  width: 20rem;
   height: 3rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: row;
+}
+footer .form-container textarea {
+  width: 20rem;
+  height: 10rem;
   padding: 0.5rem;
   margin: 0.5rem;
   display: flex;

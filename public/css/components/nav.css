@@ -6,6 +6,8 @@ header {
   margin: 0;
   width: 100%;
   background-color: var(--bg-color);
+  position: fixed;
+  transition: all 0.3s ease-in-out;
 }
 header .logo {
   width: 30%;

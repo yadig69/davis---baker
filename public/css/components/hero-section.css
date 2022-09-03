@@ -4,6 +4,7 @@
   background: url("/assets/servers.jpg");
   background-size: cover;
   background-position: center;
+  object-fit: cover;
   z-index: -1;
 }
 .hero-wrapper .hero {

@@ -2,5 +2,10 @@
   "spellright.language": ["en"],
   "spellright.documentTypes": ["markdown", "latex", "plaintext"],
   "liveServer.settings.port": 5501,
-  "cSpell.words": ["bgcolor"]
+  "cSpell.words": [
+    "bgcolor"
+  ],
+  "marquee.widgets.npm-stats.packageNames": [
+    "project"
+  ]
 }

@@ -17,6 +17,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -25%);
+        // border: solid 1px var(--border-test2);
         .indicator {
             position: absolute;
             bottom: -50px;
@@ -41,14 +42,15 @@
             width: 100%;
             height: 100%;
             overflow: hidden;
+            //  border: solid 1px var(--border-test1);
             .slide-row {
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
                 justify-content: center;
                 align-items: center;
-                // width: 250vw;
-                width: 310rem;
+                width: 250vw;
+                //width: 310rem;
                 transition: 0.5s;
                 .slide-col {
                     width: 100%;

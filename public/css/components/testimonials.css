@@ -50,7 +50,7 @@
   justify-content: space-between;
   justify-content: center;
   align-items: center;
-  width: 310rem;
+  width: 250vw;
   transition: 0.5s;
 }
 .testimonials-wrapper .container .testimonial .slide-row .slide-col {

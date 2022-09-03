@@ -38,13 +38,13 @@
 }
 .services-wrapper .services-card .content h3 {
   padding: 0.5rem;
-  font-size: 1.8rem;
+  font-size: 2.5vw;
   color: var(--white-color);
   margin-bottom: 1.5rem;
   letter-spacing: 0.25rem;
 }
 .services-wrapper .services-card .content p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: var(--black-color);
   font-weight: 300;
   line-height: 1.2;

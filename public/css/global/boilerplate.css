@@ -19,6 +19,7 @@ body {
   background-color: var(--white-color);
   color: var(--white-color);
   line-height: 1;
+  letter-spacing: 0.05rem;
 }
 
 body::-webkit-scrollbar {

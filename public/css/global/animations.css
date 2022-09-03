@@ -1,4 +1,4 @@
-a:hover {
+li a:hover {
   color: var(--button-bg-hover);
 }
 

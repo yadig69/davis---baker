@@ -1,5 +1,6 @@
 .client-wrapper {
   width: 100%;
+  background-color: var(--white-color);
 }
 .client-wrapper .client-container {
   width: 100%;

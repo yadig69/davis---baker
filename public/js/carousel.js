@@ -43,13 +43,13 @@ btn[5].onclick = function () {
   }
   this.classList.add("active");
 };
-btn[6].onclick = function () {
-  slide.style.transform = "translateX(-5950px)";
-  for (i = 0; i < 6; i++) {
-    btn[i].classList.remove("active");
-  }
-  this.classList.add("active");
-};
+// btn[6].onclick = function () {
+//   slide.style.transform = "translateX(-5950px)";
+//   for (i = 0; i < 6; i++) {
+//     btn[i].classList.remove("active");
+//   }
+//   this.classList.add("active");
+// };
 function currentSlide(n) {
   showSlides((slideIndex = n));
 }

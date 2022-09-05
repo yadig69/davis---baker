@@ -9,7 +9,7 @@
   color: var(--h1-color);
   font-weight: 800;
   text-align: center;
-  margin: 5rem 1rem;
+  margin: 5rem 15rem;
 }
 .testimonials-wrapper .container {
   width: 50%;
@@ -18,6 +18,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -25%);
+  transform-style: preserve-3d;
 }
 .testimonials-wrapper .container .indicator {
   position: absolute;

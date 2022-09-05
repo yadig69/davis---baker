@@ -8,7 +8,7 @@
         color: var(--h1-color);
         font-weight: 800;
         text-align: center;
-        margin: 5rem 1rem;
+        margin: 5rem 15rem;
     }
     .container {
         width: 50%;
@@ -17,6 +17,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -25%);
+        transform-style: preserve-3d;
         // border: solid 1px var(--border-test2);
         .indicator {
             position: absolute;

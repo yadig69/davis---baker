@@ -43,13 +43,7 @@ btn[5].onclick = function () {
   }
   this.classList.add("active");
 };
-// btn[6].onclick = function () {
-//   slide.style.transform = "translateX(-5950px)";
-//   for (i = 0; i < 6; i++) {
-//     btn[i].classList.remove("active");
-//   }
-//   this.classList.add("active");
-// };
+
 function currentSlide(n) {
   showSlides((slideIndex = n));
 }
@@ -62,11 +56,14 @@ function showSlides() {
   const slides = document.getElementsByClassName("slide");
   let btn = document.getElementsByClassName("btn");
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+    slides[i].style.display = "relative";
+    // console.log(slides);
   }
+
   slideIndex++;
   if (slideIndex > slides.length) {
     slideIndex = 1;
+    // console.log(slideIndex);
   }
   for (i = 0; i < btn.length; i++) {
     btn[i].classList.remove("active");
@@ -74,4 +71,5 @@ function showSlides() {
   slides[slideIndex - 1].style.display = "block";
   btn[slideIndex - 1].classList.add("active");
   setTimeout(showSlides, 3000);
+  console.log(slides);
 }

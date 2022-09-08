@@ -40,6 +40,13 @@
             &:hover {
                 border-radius: 10px;
                 height: 260px;
+                color: #d3d4d6;
+                box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+                background-color: hsla(169, 20%, 37%, 0.15);
+                border-top: 1px solid rgba(255, 255, 255, 0.5);
+                border-left: 1px solid rgba(255, 255, 255, 0.5);
+                // border-radius: 0.5rem;
+                box-sizing: border-box;
             }
             .img {
                 position: relative;
@@ -47,6 +54,7 @@
                 height: 100%;
                 transition: 0.6s;
                 z-index: 99;
+                // border: 1px solid var(--border-test2);
                 &:hover {
                     transform: translateY(-60px);
                 }
@@ -77,6 +85,17 @@
                     color: var(--h1-color);
                     font-family: var(--font-roboto-serif);
                     margin: 2px 0 9px 0;
+                }
+                .social-links {
+                    a {
+                        color: #333;
+                        margin-right: 15px;
+                        font-size: 21px;
+                        transition: 0.6s;
+                        &:hover {
+                            color: #0c52a1;
+                        }
+                    }
                 }
             }
         }

@@ -70,6 +70,6 @@ function showSlides() {
   }
   slides[slideIndex - 1].style.display = "block";
   btn[slideIndex - 1].classList.add("active");
-  setTimeout(showSlides, 3000);
+  setTimeout(showSlides, 2000);
   console.log(slides);
 }

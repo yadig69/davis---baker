@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     // margin-top: 300px;
     // border: 1px solid var(--border-test1);
     background-color: var(--white-color);
@@ -13,28 +14,28 @@
         color: var(--h1-color);
         font-weight: 800;
         text-align: center;
-        margin: 5rem 1rem;
+        // margin: 1rem 1rem;
     }
     .client-container {
         width: 100%;
         height: 100%;
         align-items: center;
         .client-slider {
-            margin-top: 10rem;
+            margin-top: 2.5rem;
             padding: 3rem;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
             overflow: hidden;
-            border: 1px solid var(--border-test1);
+            // border: 1px solid var(--border-test1);
             .client-slide {
                 width: 100%;
                 height: 100%;
                 padding: 1rem;
                 margin: 0 0.5rem;
-                border: 1px solid var(--border-test1);
-                // box-shadow: var(--box-shadow);
+                // border: 1px solid var(--border-test1);
+                //box-shadow: var(--box-shadow);
                 border-radius: var(--border-curved);
                 //border-top: var(--border-color);
                 // border-left: var(--border-color);

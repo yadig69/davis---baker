@@ -1,4 +1,5 @@
 :root {
+    // color pallet 1
     --bg-color: hsl(169, 20%, 37%);
     --white-color: hsl(0, 0%, 100%);
     --gray-color: hsl(0, 0%, 75%);
@@ -16,4 +17,10 @@
     --border-color: 1px solid rgba(255, 255, 255, 0.5);
     --box-bgcolor: hsla(169, 20%, 37%, 0.163);
     --border-curved: 10px;
+    // color pallet 2
+    --bg-color2: hsl(213, 48%, 16%);
+    --white-color: hsl(0, 0%, 100%);
+    --gray-color: hsl(0, 0%, 75%);
+    --black-color: hsl(0, 0%, 0%);
+    --light-text: hsl(0, 0%, 48%);
 }

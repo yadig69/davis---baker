@@ -22,7 +22,7 @@
   justify-content: center;
   align-items: center;
   justify-content: space-around;
-  background-color: var(--bg-color);
+  background-color: var(--bg-color2);
 }
 .team-wrapper .profile-wrapper .profile-card {
   position: relative;

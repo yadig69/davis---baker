@@ -22,7 +22,7 @@
             cursor: pointer;
             &:hover {
                 filter: grayscale(100%);
-                //color: var(--button-bg);
+                //color: var(--input-bg-color);
                 //transform: scale(1.3); //rotateY(-15deg)//;
                 // border-radius: 20px;
                 // box-shadow: o 32px 75px #444d8833;
@@ -37,7 +37,7 @@
             transform: translate(-50%, -50%);
             width: 100%;
             text-align: center;
-            color: var(--button-bg);
+            color: var(--input-bg-color);
             font-size: 2rem;
             font-weight: 800;
             line-height: 1.2;

@@ -7,6 +7,7 @@ header {
   width: 100%;
   background-color: var(--bg-color2);
   position: fixed;
+  z-index: 1000;
   transition: all 0.3s ease-in-out;
 }
 header .logo {
@@ -35,6 +36,7 @@ header nav li a {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-header nav li a:hover {
-  color: var(--button-bg-hover);
+header nav li a:hover,
+header nav li a .active {
+  color: var(--blue-text);
 }

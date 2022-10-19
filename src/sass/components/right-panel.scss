@@ -8,6 +8,7 @@
     justify-content: space-around;
     overflow: hidden;
     box-sizing: border-box;
+    // border: 1px solid var(--border-test1);
     .container {
         position: relative;
         width: 50%;
@@ -22,12 +23,6 @@
             cursor: pointer;
             &:hover {
                 filter: grayscale(100%);
-                //color: var(--input-bg-color);
-                //transform: scale(1.3); //rotateY(-15deg)//;
-                // border-radius: 20px;
-                // box-shadow: o 32px 75px #444d8833;
-                // transform: translate(-50%, -50%);
-                // z-index: 1;
             }
         }
         .text {

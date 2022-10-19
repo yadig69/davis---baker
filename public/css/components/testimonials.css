@@ -70,8 +70,8 @@
   padding: 1rem;
   color: #d3d4d6;
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-  background-color: hsla(169deg, 20%, 37%, 0.15);
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: var(--glass-box-bgcolor);
+  border-top: var(--glass-border-color);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0.5rem;
   box-sizing: border-box;

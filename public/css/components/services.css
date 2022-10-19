@@ -21,11 +21,12 @@
   padding: 1rem;
   box-shadow: 20px 20px 75px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  background-color: hsla(169deg, 20%, 37%, 0.15);
+  background-color: var(--glass-box-bgcolor);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
   z-index: 100;
   box-sizing: border-box;
 }

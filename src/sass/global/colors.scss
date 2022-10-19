@@ -1,26 +1,30 @@
 :root {
-    // color pallet 1
-    --bg-color: hsl(169, 20%, 37%);
-    --white-color: hsl(0, 0%, 100%);
-    --gray-color: hsl(0, 0%, 75%);
-    --black-color: hsl(0, 0%, 0%);
-    --bg-2: hsl(169, 14%, 47%);
-    --input-bg-color: hsl(161, 44%, 49%);
-    --button-bg: hsl(26, 98%, 47%);
-    --button-bg-hover: hsl(158, 93%, 59%);
-    --dark-text: hsl(228, 34%, 14%);
-    --border-test1: hsl(180, 100%, 50%);
-    --border-test2: hsl(323, 100%, 50%);
-    --h1-color: hsla(168, 14%, 47%, 0.345);
-    // box colors
-    --box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-    --border-color: 1px solid rgba(255, 255, 255, 0.5);
-    --box-bgcolor: hsla(169, 20%, 37%, 0.163);
-    --border-curved: 10px;
-    // color pallet 2
-    --bg-color2: hsl(213, 48%, 16%);
-    --white-color: hsl(0, 0%, 100%);
-    --gray-color: hsl(0, 0%, 75%);
-    --black-color: hsl(0, 0%, 0%);
-    --light-text: hsl(0, 0%, 48%);
+  // color pallet 1
+  --bg-color: hsl(169, 20%, 37%);
+  --white-color: hsl(0, 0%, 100%);
+  --gray-color: hsl(0, 0%, 75%);
+  --black-color: hsl(0, 0%, 0%);
+  --bg-2: hsl(169, 14%, 47%);
+  --input-bg-color: hsl(161, 44%, 49%);
+  --button-bg: hsl(26, 98%, 47%);
+  --button-bg-hover: hsl(158, 93%, 59%);
+  --dark-text: hsl(228, 34%, 14%);
+  --border-test1: hsl(180, 100%, 50%);
+  --border-test2: hsl(323, 100%, 50%);
+  --h1-color: hsla(168, 14%, 47%, 0.345);
+  // glass box colors
+  --glass-box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  --glass-border-color: 1px solid rgba(255, 255, 255, 0.5);
+  --glass-box-bgcolor: hsla(210, 41%, 27%, 0.15);
+  --border-curved: 10px;
+  // color pallet 2
+  --bg-color2: hsl(213, 48%, 16%);
+  --white-color: hsl(0, 0%, 100%);
+  --gray-color: hsl(0, 0%, 75%);
+  --black-color: hsl(0, 0%, 0%);
+  --light-text: hsl(0, 0%, 48%);
+  --blue-text: hsl(212, 58%, 55%);
+
+  --gin-val: #5ba405;
+  --gin-val2: #2e4286;
 }

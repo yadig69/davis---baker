@@ -8,6 +8,7 @@
     justify-content: space-between;
     align-items: start;
     padding: 0 1.2rem;
+    z-index: 1;
     //border: 1px solid var(--border-test1);
     .left-panel {
         padding: 0 2.5rem;
@@ -22,7 +23,7 @@
             font-size: 2rem;
             font-weight: 800;
             margin: 2rem 0;
-            color: var(--light-text);
+            color: var(--blue-text);
             span {
                 color: var(--white-color);
             }

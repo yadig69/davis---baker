@@ -7,6 +7,7 @@ header {
     width: 100%;
     background-color: var(--bg-color2);
     position: fixed;
+    z-index: 1000;
     transition: all 0.3s ease-in-out;
     // z-index: 2;
     .logo {
@@ -35,8 +36,9 @@ header {
                 //border: 1px solid var(--white-color);
                 cursor: pointer;
                 transition: all 0.3s ease-in-out;
-                &:hover {
-                    color: var(--button-bg-hover);
+                &:hover,
+                .active {
+                    color: var(--blue-text);
                 }
             }
         }

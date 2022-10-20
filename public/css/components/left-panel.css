@@ -31,6 +31,8 @@
 }
 .left-wrapper .left-panel .btn {
   margin-bottom: 1rem;
+  transform: translateY(-50rem);
+  transform: translateX(20rem);
 }
 .left-wrapper .left-panel .p-wrapper {
   width: 50%;

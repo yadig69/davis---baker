@@ -21,6 +21,7 @@
   --black-color: hsl(0, 0%, 0%);
   --light-text: hsl(0, 0%, 48%);
   --blue-text: hsl(212, 58%, 55%);
+  --bg-footer: hsl(204, 19%, 26%);
   --gin-val: #5ba405;
   --gin-val2: #2e4286;
 }

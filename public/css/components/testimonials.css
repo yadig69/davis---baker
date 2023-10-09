@@ -41,7 +41,7 @@
   width: 45px;
 }
 .testimonials-wrapper .container .testimonial {
-  width: 100%;
+  width: min(100%, 1000px);
   height: 100%;
   overflow: hidden;
 }

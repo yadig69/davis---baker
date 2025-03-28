@@ -21,5 +21,11 @@ function showSlides() {
 client-slider , client-container
 
 
-// const clientContainer = document.querySelector('.client-container')
-// const clientSlider = document.querySelector('.client-container > *') 
+ const clientContainer =
+		document.querySelector(
+			'.client-container',
+		);
+ const clientSlider =
+		document.querySelector(
+			'.client-container > *',
+		); 

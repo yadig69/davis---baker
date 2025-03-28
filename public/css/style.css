@@ -121,6 +121,12 @@ section {
   display: flex;
 }
 
+.about__wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
 li a:hover {
   color: var(--button-bg-hover);
 }
@@ -213,15 +219,15 @@ li a:hover {
 }
 .left-wrapper {
   width: 50vw;
-  height: 70vh;
+  height: 100vh;
   background-color: var(--bg-color2);
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
-  padding: 0 1.2rem;
   z-index: 1;
+  border: 1px solid var(--border-test1);
 }
 .left-wrapper .left-panel {
   padding: 0 2.5rem;
@@ -244,7 +250,6 @@ li a:hover {
 }
 .left-wrapper .left-panel .btn {
   margin-bottom: 1rem;
-  transform: translateY(-50rem);
   transform: translateX(20rem);
 }
 .left-wrapper .left-panel .p-wrapper {
@@ -259,7 +264,7 @@ li a:hover {
 
 .right-panel {
   width: 50vw;
-  height: 70vh;
+  height: 100vh;
   background: var(--gray-color);
   display: flex;
   flex-direction: row;
@@ -351,6 +356,7 @@ footer .form-container textarea {
   background-position: center;
   object-fit: cover;
   z-index: -1;
+  border: solid 1px rgb(3, 224, 248);
 }
 .hero-wrapper .hero {
   width: 100%;
@@ -361,6 +367,7 @@ footer .form-container textarea {
   color: var(--white-color);
   font-size: 8rem;
   font-weight: 800;
+  letter-spacing: 0.5rem;
   margin: 12rem 0;
   animation: slideInLeft 1s ease-in-out;
   animation-delay: 0.5s;
@@ -551,7 +558,7 @@ header nav li a .active {
 
 .testimonials-wrapper {
   width: 100%;
-  height: 90vh;
+  height: 135vh;
   background-color: var(--gray-color);
   position: relative;
 }
@@ -697,7 +704,7 @@ header nav li a .active {
   height: 260px;
   color: #d3d4d6;
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-  background-color: hsla(169deg, 20%, 37%, 0.15);
+  background-color: hsla(169, 20%, 37%, 0.15);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   box-sizing: border-box;

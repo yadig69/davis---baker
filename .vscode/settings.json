@@ -7,6 +7,9 @@
     "javascriptreact"
   ],
   "liveServer.settings.port": 5501,
-  "cSpell.words": ["bgcolor"],
+  "cSpell.words": [
+    "bgcolor",
+    "Fonticons"
+  ],
   "marquee.widgets.npm-stats.packageNames": ["project"]
 }

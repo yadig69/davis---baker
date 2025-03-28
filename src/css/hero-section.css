@@ -4,7 +4,8 @@
   background: url("/assets/servers.jpg");
   background-size: cover;
   background-position: center;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   z-index: -1;
   border: solid 1px rgb(3, 224, 248);
 }
@@ -65,7 +66,8 @@
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 10px;
-  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
 }
 .hero-wrapper .container .card .content {
   padding: 2rem;
